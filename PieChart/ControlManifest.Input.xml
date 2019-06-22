@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Pkoval.Xrm.Controls"
+           constructor="PieChart"
+           version="0.1.1"
+           display-name-key="Pie Chart"
+           description-key="Simple pie chart with legend"
+           control-type="standard">
+
+    <property name="JsonChart"
+              display-name-key="Json Chart"
+              description-key="JSON which represents Pie"
+              of-type="SingleLine.Text"
+              usage="bound"
+              required="true" />
+
+      <type-group name="chart">
+        <type>SingleLine.Text</type>
+      </type-group>
+
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
+
+
