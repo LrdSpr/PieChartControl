@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/node": "^10.12.18",
     "@types/powerapps-component-framework": "1.1.0",
-    "d3": "^5.9.2"
+    "d3": "^7.6.1"
   },
   "devDependencies": {
     "@types/d3": "^5.7.2",
